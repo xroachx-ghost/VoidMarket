@@ -1,0 +1,1 @@
+package com.voidmarket.ui.screens.about; import androidx.compose.runtime.Composable; import androidx.compose.material.Text; import androidx.navigation.NavHostController; @Composable fun LegalScreen(navController:NavHostController){ Text("Privacy Policy & Terms of Service — VOID MARKET"); Text("© 2025 Roach Security Labs — All Rights Reserved") }

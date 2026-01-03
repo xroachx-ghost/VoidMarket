@@ -1,0 +1,1 @@
+package com.voidmarket.ui.screens.maps; import androidx.compose.runtime.Composable; import androidx.compose.material.Text; import androidx.navigation.NavHostController; import com.voidmarket.mesh.MeshManager; @Composable fun OfflineMapScreen(navController:NavHostController){ Text("Offline Map Stub — load MapLibre tiles from assets/offline_maps") }

@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.VoidMarket" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:textColorPrimary">@color/green</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+    </style>
+
+    <style name="Theme.VoidMarket.Splash" parent="Theme.VoidMarket">
+        <item name="android:windowBackground">@drawable/guyfawks_mask</item>
+    </style>
+</resources>

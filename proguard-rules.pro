@@ -1,0 +1,1 @@
+-dontwarn **; -keep class com.voidmarket.** { *; }; -keepattributes *Annotation*
