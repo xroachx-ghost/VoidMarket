@@ -2,9 +2,8 @@ package com.voidmarket.maps
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
+import com.voidmarket.ui.screens.maps.LocationMode
 import kotlin.random.Random
-
-enum class LocationMode { REAL, MANUAL, FUZZED }
 
 object LiveMapManager {
     private val locationLive = MutableLiveData<Pair<Double, Double>>()
